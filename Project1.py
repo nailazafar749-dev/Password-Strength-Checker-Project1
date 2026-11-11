@@ -93,7 +93,6 @@ def rate(info: dict) -> tuple[str, list[str]]:
  
 def main() -> None:
     print("=== Password Strength Checker ===")
-    # getpass hides what you type on screen
     password = input("Enter password to check: ")
 
     info = analyze(password)
